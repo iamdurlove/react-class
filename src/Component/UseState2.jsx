@@ -9,7 +9,7 @@ const UseState2 = () => {
 	return (
 		<>
 			<button onMouseOver={handleButton}>Show/Hide</button>
-			{data ? <h1>Its Magic!</h1> : ""}
+			{data ? <h1>Its Pratik!</h1> : ""}
 		</>
 	);
 };
