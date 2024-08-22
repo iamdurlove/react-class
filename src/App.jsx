@@ -5,6 +5,7 @@ import PropsDestructure from "./Component/PropsDestructre";
 import { useState } from "react";
 import UseState from "./Component/UseState";
 import UseState2 from "./Component/UseState2";
+import UseUseEffect from "./Component/UseUseEffect";
 
 const App = () => {
 	// const [data, setData] = useState("I am parent, and default");
@@ -24,7 +25,8 @@ const App = () => {
 			{/* <LiftingStateUp myClick={myClick} /> */}
 
 			{/* <UseState /> */}
-			<UseState2 />
+			{/* <UseState2 /> */}
+			<UseUseEffect />
 		</>
 	);
 };
